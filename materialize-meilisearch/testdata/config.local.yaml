@@ -1,0 +1,5 @@
+endpoint: "http://localhost:7700"
+apiKey: "masterKey"
+hardDelete: true
+advanced:
+  feature_flags: allow_existing_tables_for_new_bindings

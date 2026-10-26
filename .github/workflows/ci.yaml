@@ -175,6 +175,7 @@ jobs:
           - materialize-hubspot
           - materialize-iceberg
           - materialize-kafka
+          - materialize-meilisearch
           - materialize-mongodb
           - materialize-motherduck
           - materialize-mysql

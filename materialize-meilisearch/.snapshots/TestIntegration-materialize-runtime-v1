@@ -1,0 +1,154 @@
+Task: acmeCo/tests/materialize-meilisearch
+
+Resource: simple_standard
+
+{"Name":"_meta/op","Nullable":true,"Type":""}
+{"Name":"canary","Nullable":true,"Type":""}
+{"Name":"flow_document","Nullable":true,"Type":""}
+{"Name":"flow_id","Nullable":true,"Type":""}
+{"Name":"flow_published_at","Nullable":true,"Type":""}
+{"Name":"id","Nullable":true,"Type":""}
+{"Name":"val","Nullable":true,"Type":""}
+
+Table Data:
+{"_meta/op":"c","canary":"Kringle's","flow_document":{"_meta":{"op":"c","uuid":"77a80200-1dda-11b2-8000-071353030311"},"canary":"Kringle's","id":5,"val":5},"flow_id":"FQU","flow_published_at":"1970-01-01T01:00:04.000000000Z","id":5,"val":5}
+{"_meta/op":"c","canary":"devilish","flow_document":{"_meta":{"op":"c","uuid":"39ffa500-1deb-11b2-8000-071353030311"},"canary":"devilish","id":9,"val":9},"flow_id":"FQk","flow_published_at":"1970-01-01T03:00:02.000000000Z","id":9,"val":9}
+{"_meta/op":"c","canary":"glucose's","flow_document":{"_meta":{"op":"c","uuid":"3a983b80-1deb-11b2-8000-071353030311"},"canary":"glucose's","id":10,"val":10},"flow_id":"FQo","flow_published_at":"1970-01-01T03:00:03.000000000Z","id":10,"val":10}
+{"_meta/op":"c","canary":"grosbeak's","flow_document":{"_meta":{"op":"c","uuid":"78409880-1dda-11b2-8000-071353030311"},"canary":"grosbeak's","id":6,"val":6},"flow_id":"FQY","flow_published_at":"1970-01-01T01:00:05.000000000Z","id":6,"val":6}
+{"_meta/op":"c","canary":"pieced","flow_document":{"_meta":{"op":"c","uuid":"38ce7800-1deb-11b2-8000-071353030311"},"canary":"pieced","id":7,"val":7},"flow_id":"FQc","flow_published_at":"1970-01-01T03:00:00.000000000Z","id":7,"val":7}
+{"_meta/op":"c","canary":"roaches","flow_document":{"_meta":{"op":"c","uuid":"39670e80-1deb-11b2-8000-071353030311"},"canary":"roaches","id":8,"val":8},"flow_id":"FQg","flow_published_at":"1970-01-01T03:00:01.000000000Z","id":8,"val":8}
+{"_meta/op":"c","canary":"strengthen","flow_document":{"_meta":{"op":"c","uuid":"770f6b80-1dda-11b2-8000-071353030311"},"canary":"strengthen","id":4,"val":4},"flow_id":"FQQ","flow_published_at":"1970-01-01T01:00:03.000000000Z","id":4,"val":4}
+{"_meta/op":"d","canary":"asteroid","flow_document":{"_meta":{"op":"d","uuid":"3b30d200-1deb-11b2-8000-071353030311"},"canary":"asteroid","id":11,"val":11},"flow_id":"FQs","flow_published_at":"1970-01-01T03:00:04.000000000Z","id":11,"val":11}
+{"_meta/op":"u","canary":"splatters","flow_document":{"_meta":{"op":"u","uuid":"3e2bc280-1deb-11b2-8000-071353030311"},"canary":"splatters","id":3,"val":3},"flow_id":"FQM","flow_published_at":"1970-01-01T03:00:09.000000000Z","id":3,"val":3}
+
+Resource: simple_delta
+
+{"Name":"_meta/op","Nullable":true,"Type":""}
+{"Name":"canary","Nullable":true,"Type":""}
+{"Name":"flow_id","Nullable":true,"Type":""}
+{"Name":"flow_published_at","Nullable":true,"Type":""}
+{"Name":"id","Nullable":true,"Type":""}
+{"Name":"val","Nullable":true,"Type":""}
+
+Table Data:
+{"_meta/op":"c","canary":"Kringle's","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T01:00:04.000000000Z","id":5,"val":5}
+{"_meta/op":"c","canary":"amputation's","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T01:00:00.000000000Z","id":1,"val":1}
+{"_meta/op":"c","canary":"armament's","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T01:00:01.000000000Z","id":2,"val":2}
+{"_meta/op":"c","canary":"devilish","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T03:00:02.000000000Z","id":9,"val":9}
+{"_meta/op":"c","canary":"glucose's","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T03:00:03.000000000Z","id":10,"val":10}
+{"_meta/op":"c","canary":"grosbeak's","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T01:00:05.000000000Z","id":6,"val":6}
+{"_meta/op":"c","canary":"penguin","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T03:00:05.000000000Z","id":12,"val":12}
+{"_meta/op":"c","canary":"pieced","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T03:00:00.000000000Z","id":7,"val":7}
+{"_meta/op":"c","canary":"roaches","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T03:00:01.000000000Z","id":8,"val":8}
+{"_meta/op":"c","canary":"splatters","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T01:00:02.000000000Z","id":3,"val":3}
+{"_meta/op":"c","canary":"strengthen","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T01:00:03.000000000Z","id":4,"val":4}
+{"_meta/op":"d","canary":"amputation's","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T03:00:07.000000000Z","id":1,"val":1}
+{"_meta/op":"d","canary":"armament's","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T03:00:08.000000000Z","id":2,"val":2}
+{"_meta/op":"d","canary":"asteroid","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T03:00:04.000000000Z","id":11,"val":11}
+{"_meta/op":"d","canary":"penguin","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T03:00:06.000000000Z","id":12,"val":12}
+{"_meta/op":"u","canary":"splatters","flow_id":"\u003cuuid\u003e","flow_published_at":"1970-01-01T03:00:09.000000000Z","id":3,"val":3}
+
+Resource: simple_delta_document
+
+{"Name":"_meta/op","Nullable":true,"Type":""}
+{"Name":"canary","Nullable":true,"Type":""}
+{"Name":"flow_document","Nullable":true,"Type":""}
+{"Name":"flow_id","Nullable":true,"Type":""}
+{"Name":"flow_published_at","Nullable":true,"Type":""}
+{"Name":"id","Nullable":true,"Type":""}
+{"Name":"val","Nullable":true,"Type":""}
+
+Table Data:
+{"_meta/op":"c","canary":"Kringle's","flow_document":{"_meta":{"op":"c","uuid":"77a80200-1dda-11b2-8000-071353030311"},"canary":"Kringle's","id":5,"val":5},"flow_id":"d_b6072bc0c1744d995ab732f7b7236416f32a99aaaa7923f715e299cbe43b28d2","flow_published_at":"1970-01-01T01:00:04.000000000Z","id":5,"val":5}
+{"_meta/op":"c","canary":"amputation's","flow_document":{"_meta":{"op":"c","uuid":"7545a800-1dda-11b2-8000-071353030311"},"canary":"amputation's","id":1,"val":1},"flow_id":"d_23a0c54b863085daa3314d15c42ec2921654b579b0e311736d97b61f4c84319f","flow_published_at":"1970-01-01T01:00:00.000000000Z","id":1,"val":1}
+{"_meta/op":"c","canary":"armament's","flow_document":{"_meta":{"op":"c","uuid":"75de3e80-1dda-11b2-8000-071353030311"},"canary":"armament's","id":2,"val":2},"flow_id":"d_b98882530fba35397bd436b698fff9507d5224b20b0ae949ddbec93a5c55454a","flow_published_at":"1970-01-01T01:00:01.000000000Z","id":2,"val":2}
+{"_meta/op":"c","canary":"devilish","flow_document":{"_meta":{"op":"c","uuid":"39ffa500-1deb-11b2-8000-071353030311"},"canary":"devilish","id":9,"val":9},"flow_id":"d_e6372554b61079c0664990e23f4bf8dc51a7129d22e953cf4d7d543d0f8e0a3f","flow_published_at":"1970-01-01T03:00:02.000000000Z","id":9,"val":9}
+{"_meta/op":"c","canary":"glucose's","flow_document":{"_meta":{"op":"c","uuid":"3a983b80-1deb-11b2-8000-071353030311"},"canary":"glucose's","id":10,"val":10},"flow_id":"d_e8a3a63ed52eae5d5200e6c57c7adfea5d6720b41a3be8e1cb9a49ba01340d21","flow_published_at":"1970-01-01T03:00:03.000000000Z","id":10,"val":10}
+{"_meta/op":"c","canary":"grosbeak's","flow_document":{"_meta":{"op":"c","uuid":"78409880-1dda-11b2-8000-071353030311"},"canary":"grosbeak's","id":6,"val":6},"flow_id":"d_22a21cba22b57c6e5b9d40692bb780d3894e6c5b5f578662c0fc4976fcd3904f","flow_published_at":"1970-01-01T01:00:05.000000000Z","id":6,"val":6}
+{"_meta/op":"c","canary":"penguin","flow_document":{"_meta":{"op":"c","uuid":"3bc96880-1deb-11b2-8000-071353030311"},"canary":"penguin","id":12,"val":12},"flow_id":"d_9d25566a69cd66417d1d76a76d7e5c61cc20717621005dadb49463951e9b1271","flow_published_at":"1970-01-01T03:00:05.000000000Z","id":12,"val":12}
+{"_meta/op":"c","canary":"pieced","flow_document":{"_meta":{"op":"c","uuid":"38ce7800-1deb-11b2-8000-071353030311"},"canary":"pieced","id":7,"val":7},"flow_id":"d_dc26c0896a3af779a3d180f267a84d2b75225fcc4b2ad03ec7c72a5b9c657f9c","flow_published_at":"1970-01-01T03:00:00.000000000Z","id":7,"val":7}
+{"_meta/op":"c","canary":"roaches","flow_document":{"_meta":{"op":"c","uuid":"39670e80-1deb-11b2-8000-071353030311"},"canary":"roaches","id":8,"val":8},"flow_id":"d_1091f03b1fb81140bdee536e4bcd340db4bbb5077f07c68bf7f0f1c16b22f572","flow_published_at":"1970-01-01T03:00:01.000000000Z","id":8,"val":8}
+{"_meta/op":"c","canary":"splatters","flow_document":{"_meta":{"op":"c","uuid":"7676d500-1dda-11b2-8000-071353030311"},"canary":"splatters","id":3,"val":3},"flow_id":"d_751d825cac8829a12a3078b5b1652b5970726304c156d77d0e998d0f6ec667ae","flow_published_at":"1970-01-01T01:00:02.000000000Z","id":3,"val":3}
+{"_meta/op":"c","canary":"strengthen","flow_document":{"_meta":{"op":"c","uuid":"770f6b80-1dda-11b2-8000-071353030311"},"canary":"strengthen","id":4,"val":4},"flow_id":"d_acc460fb5624723ce09a0f3016020fd7e8c565b395b8eed0693be3ecf0c2ed30","flow_published_at":"1970-01-01T01:00:03.000000000Z","id":4,"val":4}
+{"_meta/op":"d","canary":"amputation's","flow_document":{"_meta":{"op":"d","uuid":"3cfa9580-1deb-11b2-8000-071353030311"},"canary":"amputation's","id":1,"val":1},"flow_id":"d_18fbb2b1f3440eff3ef66869b1950609c25ac363f36d4c5b6479f97df3aaca27","flow_published_at":"1970-01-01T03:00:07.000000000Z","id":1,"val":1}
+{"_meta/op":"d","canary":"armament's","flow_document":{"_meta":{"op":"d","uuid":"3d932c00-1deb-11b2-8000-071353030311"},"canary":"armament's","id":2,"val":2},"flow_id":"d_54376e6616c8fbabd2a5b5e1ec8a59eeeea10ab298792313a51de26882692163","flow_published_at":"1970-01-01T03:00:08.000000000Z","id":2,"val":2}
+{"_meta/op":"d","canary":"asteroid","flow_document":{"_meta":{"op":"d","uuid":"3b30d200-1deb-11b2-8000-071353030311"},"canary":"asteroid","id":11,"val":11},"flow_id":"d_1d8a74657627637914a627e8dd7347523f682261c378dffe5d4ab4a05ee6a9d4","flow_published_at":"1970-01-01T03:00:04.000000000Z","id":11,"val":11}
+{"_meta/op":"d","canary":"penguin","flow_document":{"_meta":{"op":"d","uuid":"3c61ff00-1deb-11b2-8000-071353030311"},"canary":"penguin","id":12,"val":12},"flow_id":"d_c9ed0181ed3962159c34bb55af046016af0cd1b4113a4a54429093071de2b78c","flow_published_at":"1970-01-01T03:00:06.000000000Z","id":12,"val":12}
+{"_meta/op":"u","canary":"splatters","flow_document":{"_meta":{"op":"u","uuid":"3e2bc280-1deb-11b2-8000-071353030311"},"canary":"splatters","id":3,"val":3},"flow_id":"d_3dca66410c09e4eb921b3bf451b608b4011e9bedae3d724d7cbe2686c86d3fca","flow_published_at":"1970-01-01T03:00:09.000000000Z","id":3,"val":3}
+
+Resource: not_simple
+
+{"Name":" ,;{}()_- problematicField � 𐀀 嶲 ","Nullable":true,"Type":""}
+{"Name":" ,;{}()_- problematicKey � 𐀀 嶲 ","Nullable":true,"Type":""}
+{"Name":"$dollar$signs","Nullable":true,"Type":""}
+{"Name":"123","Nullable":true,"Type":""}
+{"Name":"123startsWithDigits","Nullable":true,"Type":""}
+{"Name":"FIELDWITHDIFFERENTCAPS","Nullable":true,"Type":""}
+{"Name":"_id","Nullable":true,"Type":""}
+{"Name":"a\"string`with`quote'characters","Nullable":true,"Type":""}
+{"Name":"binaryKey","Nullable":true,"Type":""}
+{"Name":"field with separated words","Nullable":true,"Type":""}
+{"Name":"field-with-separated-words","Nullable":true,"Type":""}
+{"Name":"fieldWithDifferentCaps","Nullable":true,"Type":""}
+{"Name":"field_with-separated_words","Nullable":true,"Type":""}
+{"Name":"field_with_separated_words","Nullable":true,"Type":""}
+{"Name":"fieldwithdifferentcaps","Nullable":true,"Type":""}
+{"Name":"flow_document","Nullable":true,"Type":""}
+{"Name":"flow_id","Nullable":true,"Type":""}
+{"Name":"flow_published_at","Nullable":true,"Type":""}
+{"Name":"longString","Nullable":true,"Type":""}
+{"Name":"testing (%s)","Nullable":true,"Type":""}
+{"Name":"unsignedBigint","Nullable":true,"Type":""}
+
+Table Data:
+{" ,;{}()_- problematicField � 𐀀 嶲 ":""," ,;{}()_- problematicKey � 𐀀 嶲 ":"test-key-2","$dollar$signs":"","123":"","123startsWithDigits":"","FIELDWITHDIFFERENTCAPS":"","_id":"doc_002","a\"string`with`quote'characters":null,"binaryKey":"VGVzdERhdGE=","field with separated words":"","field-with-separated-words":"","fieldWithDifferentCaps":"","field_with-separated_words":"","field_with_separated_words":"","fieldwithdifferentcaps":"","flow_document":{" ,;{}().- problematicField � 𐀀 嶲 ":""," ,;{}().- problematicKey � 𐀀 嶲 ":"test-key-2","$dollar$signs":"","123":"","123startsWithDigits":"","FIELDWITHDIFFERENTCAPS":"","_id":"doc_002","_meta":{"uuid":"7971c580-1dda-11b2-8000-071353030311"},"a\"string`with`quote''characters":"","binaryKey":"VGVzdERhdGE=","field with separated words":"","field-with-separated-words":"","field.with-separated_words":"","field.with.separated.words":"","fieldWithDifferentCaps":"","field_with_separated_words":"","fieldwithdifferentcaps":"","longString":"","testing (%s)":"","unsignedBigint":0},"flow_id":"AnRlc3Qta2V5LTIAAmRvY18wMDIAAlZHVnpkRVJoZEdFPQA","flow_published_at":"1970-01-01T01:00:07.000000000Z","longString":"","testing (%s)":"","unsignedBigint":0}
+{" ,;{}()_- problematicField � 𐀀 嶲 ":"symbols: !@#$%^\u0026*()_+-=[]{}|;':\",./\u003c\u003e?"," ,;{}()_- problematicKey � 𐀀 嶲 ":"very long string that exceeds 256 characters to test if dynamic sizing of varchar fields works. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.","$dollar$signs":"$100.50$","123":"999","123startsWithDigits":"field starting with 123","FIELDWITHDIFFERENTCAPS":"ALL UPPERCASE VALUE","_id":"doc_003","a\"string`with`quote'characters":null,"binaryKey":"QmluYXJ5VGVzdERhdGE=","field with separated words":"edge case testing","field-with-separated-words":"hyphen-separated-values","fieldWithDifferentCaps":"CamelCaseValue","field_with-separated_words":"mixed.separator-test_data","field_with_separated_words":"system.test.data","fieldwithdifferentcaps":"all lowercase value","flow_document":{" ,;{}().- problematicField � 𐀀 嶲 ":"symbols: !@#$%^\u0026*()_+-=[]{}|;':\",./\u003c\u003e?"," ,;{}().- problematicKey � 𐀀 嶲 ":"very long string that exceeds 256 characters to test if dynamic sizing of varchar fields works. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.","$dollar$signs":"$100.50$","123":"999","123startsWithDigits":"field starting with 123","FIELDWITHDIFFERENTCAPS":"ALL UPPERCASE VALUE","_id":"doc_003","_meta":{"uuid":"7a0a5c00-1dda-11b2-8000-071353030311"},"a\"string`with`quote''characters":"testing \"quotes\" and `backticks` and 'apostrophes'","binaryKey":"QmluYXJ5VGVzdERhdGE=","field with separated words":"edge case testing","field-with-separated-words":"hyphen-separated-values","field.with-separated_words":"mixed.separator-test_data","field.with.separated.words":"system.test.data","fieldWithDifferentCaps":"CamelCaseValue","field_with_separated_words":"underscore_separated_values","fieldwithdifferentcaps":"all lowercase value","longString":"very long string that exceeds 256 characters to test if dynamic sizing of varchar fields works. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.","testing (%s)":"printf style format string test","unsignedBigint":18446744073709551615},"flow_id":"AnZlcnkgbG9uZyBzdHJpbmcgdGhhdCBleGNlZWRzIDI1NiBjaGFyYWN0ZXJzIHRvIHRlc3QgaWYgZHluYW1pYyBzaXppbmcgb2YgdmFyY2hhciBmaWVsZHMgd29ya3MuIExvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQsIHNlZCBkbyBlaXVzbW9kIHRlbXBvciBpbmNpZGlkdW50IHV0IGxhYm9yZSBldCBkb2xvcmUgbWFnbmEgYWxpcXVhLiBVdCBlbmltIGFkIG1pbmltIHZlbmlhbSwgcXVpcyBub3N0cnUuAAJkb2NfMDAzAAJRbWx1WVhKNVZHVnpkRVJoZEdFPQA","flow_published_at":"1970-01-01T01:00:08.000000000Z","longString":"very long string that exceeds 256 characters to test if dynamic sizing of varchar fields works. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru.","testing (%s)":"printf style format string test","unsignedBigint":18446744073709551615}
+{" ,;{}()_- problematicField � 𐀀 嶲 ":"updated special chars"," ,;{}()_- problematicKey � 𐀀 嶲 ":"\\he \\ ' \" `llo`","$dollar$signs":"updated dollars","123":"updated 123","123startsWithDigits":"updated numbers","FIELDWITHDIFFERENTCAPS":"UPDATED UPPERCASE","_id":"doc_001","a\"string`with`quote'characters":null,"binaryKey":"SGVsbG8gV29ybGQ=","field with separated words":"updated spaces","field-with-separated-words":"updated dashes","fieldWithDifferentCaps":"updatedCamelCase","field_with-separated_words":"updated mixed","field_with_separated_words":"updated dots","fieldwithdifferentcaps":"updated lowercase","flow_document":{" ,;{}().- problematicField � 𐀀 嶲 ":"updated special chars"," ,;{}().- problematicKey � 𐀀 嶲 ":"\\he \\ ' \" `llo`","$dollar$signs":"updated dollars","123":"updated 123","123startsWithDigits":"updated numbers","FIELDWITHDIFFERENTCAPS":"UPDATED UPPERCASE","_id":"doc_001","_meta":{"uuid":"3ec45900-1deb-11b2-8000-071353030311"},"a\"string`with`quote''characters":"updated quotes","binaryKey":"SGVsbG8gV29ybGQ=","field with separated words":"updated spaces","field-with-separated-words":"updated dashes","field.with-separated_words":"updated mixed","field.with.separated.words":"updated dots","fieldWithDifferentCaps":"updatedCamelCase","field_with_separated_words":"updated underscores","fieldwithdifferentcaps":"updated lowercase","longString":"Updated long string with more Unicode: 🎭🎨🎪🎯 αβγδε ñáéíóú 中文更新测试 العربية עברית русский 한국어 日本語","testing (%s)":"updated printf","unsignedBigint":18446744073709551615},"flow_id":"AlxoZSBcICcgIiBgbGxvYAACZG9jXzAwMQACU0dWc2JHOGdWMjl5YkdRPQA","flow_published_at":"1970-01-01T03:00:10.000000000Z","longString":"Updated long string with more Unicode: 🎭🎨🎪🎯 αβγδε ñáéíóú 中文更新测试 العربية עברית русский 한국어 日本語","testing (%s)":"updated printf","unsignedBigint":18446744073709551615}
+
+Resource: data_types
+
+{"Name":"arrayField","Nullable":true,"Type":""}
+{"Name":"boolField","Nullable":true,"Type":""}
+{"Name":"enumField","Nullable":true,"Type":""}
+{"Name":"enumNullableField","Nullable":true,"Type":""}
+{"Name":"flow_document","Nullable":true,"Type":""}
+{"Name":"flow_id","Nullable":true,"Type":""}
+{"Name":"flow_published_at","Nullable":true,"Type":""}
+{"Name":"id","Nullable":true,"Type":""}
+{"Name":"intField","Nullable":true,"Type":""}
+{"Name":"multipleField","Nullable":true,"Type":""}
+{"Name":"numField","Nullable":true,"Type":""}
+{"Name":"stringAndIntegerField","Nullable":true,"Type":""}
+{"Name":"stringAndNumberField","Nullable":true,"Type":""}
+{"Name":"stringDateField","Nullable":true,"Type":""}
+{"Name":"stringDateTimeField","Nullable":true,"Type":""}
+{"Name":"stringDurationField","Nullable":true,"Type":""}
+{"Name":"stringEmailField","Nullable":true,"Type":""}
+{"Name":"stringField","Nullable":true,"Type":""}
+{"Name":"stringHostnameField","Nullable":true,"Type":""}
+{"Name":"stringIntegerField","Nullable":true,"Type":""}
+{"Name":"stringIpv4Field","Nullable":true,"Type":""}
+{"Name":"stringIpv6Field","Nullable":true,"Type":""}
+{"Name":"stringIriField","Nullable":true,"Type":""}
+{"Name":"stringIriReferenceField","Nullable":true,"Type":""}
+{"Name":"stringJsonPointerField","Nullable":true,"Type":""}
+{"Name":"stringMacAddr8Field","Nullable":true,"Type":""}
+{"Name":"stringMacAddrField","Nullable":true,"Type":""}
+{"Name":"stringNumberField","Nullable":true,"Type":""}
+{"Name":"stringRegexField","Nullable":true,"Type":""}
+{"Name":"stringRelativeJsonPointerField","Nullable":true,"Type":""}
+{"Name":"stringTimeField","Nullable":true,"Type":""}
+{"Name":"stringUint32Field","Nullable":true,"Type":""}
+{"Name":"stringUint64Field","Nullable":true,"Type":""}
+{"Name":"stringUriField","Nullable":true,"Type":""}
+{"Name":"stringUriReferenceField","Nullable":true,"Type":""}
+{"Name":"stringUriTemplateField","Nullable":true,"Type":""}
+{"Name":"stringUuidField","Nullable":true,"Type":""}
+
+Table Data:
+{"arrayField":["updated","array","values"],"boolField":false,"enumField":"foo","enumNullableField":"one","flow_document":{"_meta":{"uuid":"3f5cef80-1deb-11b2-8000-071353030311"},"arrayField":["updated","array","values"],"boolField":false,"enumField":"foo","enumNullableField":"one","id":4,"intField":2147483647,"multipleField":999,"nullField":null,"numField":12345678900.0,"objField":{"timestamp":"2024-01-01","updated":true},"stringAndIntegerField":999,"stringAndNumberField":999.999,"stringDateField":"2024-12-25","stringDateTimeField":"2024-12-25T00:00:00Z","stringDurationField":"P1D","stringEmailField":"updated@test.org","stringField":"updated value","stringHostnameField":"api.example.org","stringIntegerField":"999","stringIpv4Field":"8.8.8.8","stringIpv6Field":"2001:4860:4860::8888","stringIriField":"https://テスト.例","stringIriReferenceField":"/テスト/例","stringJsonPointerField":"/data/items/0/name","stringMacAddr8Field":"aa:bb:cc:dd:ee:ff:00:11","stringMacAddrField":"aa:bb:cc:dd:ee:ff","stringNumberField":"999.999","stringRegexField":"^\\d{4}-\\d{2}-\\d{2}$","stringRelativeJsonPointerField":"3/updated","stringTimeField":"12:00:00z","stringUint32Field":"1000000000","stringUint64Field":"1000000000000000000","stringUriField":"https://api.example.org/v1/resource","stringUriReferenceField":"../parent/resource","stringUriTemplateField":"/api/v{version}/users/{id}","stringUuidField":"123e4567-e89b-12d3-a456-426614174000"},"flow_id":"FQQ","flow_published_at":"1970-01-01T03:00:11.000000000Z","id":4,"intField":2147483647,"multipleField":999,"numField":12345678900,"stringAndIntegerField":999,"stringAndNumberField":999.999,"stringDateField":"2024-12-25","stringDateTimeField":"2024-12-25T00:00:00Z","stringDurationField":"P1D","stringEmailField":"updated@test.org","stringField":"updated value","stringHostnameField":"api.example.org","stringIntegerField":"999","stringIpv4Field":"8.8.8.8","stringIpv6Field":"2001:4860:4860::8888","stringIriField":"https://テスト.例","stringIriReferenceField":"/テスト/例","stringJsonPointerField":"/data/items/0/name","stringMacAddr8Field":"aa:bb:cc:dd:ee:ff:00:11","stringMacAddrField":"aa:bb:cc:dd:ee:ff","stringNumberField":"999.999","stringRegexField":"^\\d{4}-\\d{2}-\\d{2}$","stringRelativeJsonPointerField":"3/updated","stringTimeField":"12:00:00z","stringUint32Field":"1000000000","stringUint64Field":"1000000000000000000","stringUriField":"https://api.example.org/v1/resource","stringUriReferenceField":"../parent/resource","stringUriTemplateField":"/api/v{version}/users/{id}","stringUuidField":"123e4567-e89b-12d3-a456-426614174000"}
+{"arrayField":[1,"two",3.0,true,null],"boolField":true,"enumField":"baz","enumNullableField":null,"flow_document":{"_meta":{"uuid":"3ff58600-1deb-11b2-8000-071353030311"},"arrayField":[1,"two",3.0,true,null],"boolField":true,"enumField":"baz","id":1,"intField":42.0,"multipleField":"string value","nullField":null,"numField":3.14159,"objField":{"count":123,"nested":"value"},"stringAndIntegerField":"1.0","stringAndNumberField":"123.456","stringDateField":"2023-01-15","stringDateTimeField":"2023-01-15T10:30:45z","stringDurationField":"P1Y2M3DT4H5M6S","stringEmailField":"test@example.com","stringField":"hello world","stringHostnameField":"example.com","stringIntegerField":"1.0","stringIpv4Field":"192.168.1.1","stringIpv6Field":"2001:db8::1","stringIriField":"https://例え.テスト","stringIriReferenceField":"/例え/テスト","stringJsonPointerField":"/path/to/field","stringMacAddr8Field":"00:14:22:ff:fe:01:23:45","stringMacAddrField":"00:14:22:01:23:45","stringNumberField":"123.456","stringRegexField":"^[a-zA-Z0-9]+$","stringRelativeJsonPointerField":"1/name","stringTimeField":"14:30:00+02:30","stringUint32Field":"4294967295","stringUint64Field":"18446744073709551615","stringUriField":"https://example.com/path","stringUriReferenceField":"/relative/path","stringUriTemplateField":"https://api.example.com/{id}","stringUuidField":"550e8400-e29b-41d4-a716-446655440000"},"flow_id":"FQE","flow_published_at":"1970-01-01T03:00:12.000000000Z","id":1,"intField":42,"multipleField":"string value","numField":3.14159,"stringAndIntegerField":"1.0","stringAndNumberField":"123.456","stringDateField":"2023-01-15","stringDateTimeField":"2023-01-15T10:30:45z","stringDurationField":"P1Y2M3DT4H5M6S","stringEmailField":"test@example.com","stringField":"hello world","stringHostnameField":"example.com","stringIntegerField":"1.0","stringIpv4Field":"192.168.1.1","stringIpv6Field":"2001:db8::1","stringIriField":"https://例え.テスト","stringIriReferenceField":"/例え/テスト","stringJsonPointerField":"/path/to/field","stringMacAddr8Field":"00:14:22:ff:fe:01:23:45","stringMacAddrField":"00:14:22:01:23:45","stringNumberField":"123.456","stringRegexField":"^[a-zA-Z0-9]+$","stringRelativeJsonPointerField":"1/name","stringTimeField":"14:30:00+02:30","stringUint32Field":"4294967295","stringUint64Field":"18446744073709551615","stringUriField":"https://example.com/path","stringUriReferenceField":"/relative/path","stringUriTemplateField":"https://api.example.com/{id}","stringUuidField":"550e8400-e29b-41d4-a716-446655440000"}
+{"arrayField":[],"boolField":false,"enumField":"bar","enumNullableField":null,"flow_document":{"_meta":{"uuid":"408e1c80-1deb-11b2-8000-071353030311"},"arrayField":[],"boolField":false,"enumField":"bar","id":2,"intField":-999,"multipleField":42,"nullField":null,"numField":-2.718281828,"objField":{},"stringAndIntegerField":-123,"stringAndNumberField":-456.789,"stringDateField":"1999-12-31","stringDateTimeField":"1999-12-31T23:59:59.123456789Z","stringDurationField":"PT30M","stringEmailField":"admin@localhost","stringField":"","stringHostnameField":"localhost","stringIntegerField":"-123","stringIpv4Field":"127.0.0.1","stringIpv6Field":"::1","stringIriField":"http://localhost","stringIriReferenceField":"/","stringJsonPointerField":"/0","stringMacAddr8Field":"ff:ff:ff:ff:ff:ff:ff:ff","stringMacAddrField":"ff:ff:ff:ff:ff:ff","stringNumberField":"-456.789","stringRegexField":".*","stringRelativeJsonPointerField":"0","stringTimeField":"03:55:23.123456789Z","stringUint32Field":"0","stringUint64Field":"0","stringUriField":"http://localhost:8080","stringUriReferenceField":"#fragment","stringUriTemplateField":"http://example.com/~{username}/","stringUuidField":"00000000-0000-0000-0000-000000000000"},"flow_id":"FQI","flow_published_at":"1970-01-01T03:00:13.000000000Z","id":2,"intField":-999,"multipleField":42,"numField":-2.718281828,"stringAndIntegerField":-123,"stringAndNumberField":-456.789,"stringDateField":"1999-12-31","stringDateTimeField":"1999-12-31T23:59:59.123456789Z","stringDurationField":"PT30M","stringEmailField":"admin@localhost","stringField":"","stringHostnameField":"localhost","stringIntegerField":"-123","stringIpv4Field":"127.0.0.1","stringIpv6Field":"::1","stringIriField":"http://localhost","stringIriReferenceField":"/","stringJsonPointerField":"/0","stringMacAddr8Field":"ff:ff:ff:ff:ff:ff:ff:ff","stringMacAddrField":"ff:ff:ff:ff:ff:ff","stringNumberField":"-456.789","stringRegexField":".*","stringRelativeJsonPointerField":"0","stringTimeField":"03:55:23.123456789Z","stringUint32Field":"0","stringUint64Field":"0","stringUriField":"http://localhost:8080","stringUriReferenceField":"#fragment","stringUriTemplateField":"http://example.com/~{username}/","stringUuidField":"00000000-0000-0000-0000-000000000000"}
+{"arrayField":[{"obj":"in array"},[1,[2,[3]]],"mixed types"],"boolField":true,"enumField":"baz","enumNullableField":"two","flow_document":{"_meta":{"uuid":"7bd41f80-1dda-11b2-8000-071353030311"},"arrayField":[{"obj":"in array"},[1,[2,[3]]],"mixed types"],"boolField":true,"enumField":"baz","enumNullableField":"two","id":3,"intField":0,"multipleField":{"object":"value"},"nullField":null,"numField":0.0,"objField":{"array":[1,2,3],"nested":{"deep":"value"}},"stringAndIntegerField":"2147483647","stringAndNumberField":"0","stringDateField":"2024-02-29","stringDateTimeField":"2024-02-29T12:00:00.000000000z","stringDurationField":"P0D","stringEmailField":"user+tag@sub.domain.com","stringField":"special chars: !@#$%^\u0026*()[]{}|\\:;\"'\u003c\u003e?/.,","stringHostnameField":"sub.domain.example.org","stringIntegerField":"2147483647","stringIpv4Field":"10.0.0.1","stringIpv6Field":"2001:0db8:0000:0000:0000:ff00:0042:8329","stringIriField":"https://москва.рф/path","stringIriReferenceField":"/москва/путь","stringJsonPointerField":"/nested/array/0/field","stringMacAddr8Field":"01:23:45:67:89:ab:cd:ef","stringMacAddrField":"01:23:45:67:89:ab","stringNumberField":"0","stringRegexField":"[0-9]{3}-[0-9]{2}-[0-9]{4}","stringRelativeJsonPointerField":"2/nested/field","stringTimeField":"23:59:59.999-01:15","stringUint32Field":"2147483648","stringUint64Field":"9223372036854775808","stringUriField":"ftp://user:pass@host.com:21/path?query=value","stringUriReferenceField":"?query=value\u0026other=param","stringUriTemplateField":"https://{host}{/path*}{?query*}","stringUuidField":"f47ac10b-58cc-4372-a567-0e02b2c3d479"},"flow_id":"FQM","flow_published_at":"1970-01-01T01:00:11.000000000Z","id":3,"intField":0,"multipleField":{"object":"value"},"numField":0,"stringAndIntegerField":"2147483647","stringAndNumberField":"0","stringDateField":"2024-02-29","stringDateTimeField":"2024-02-29T12:00:00.000000000z","stringDurationField":"P0D","stringEmailField":"user+tag@sub.domain.com","stringField":"special chars: !@#$%^\u0026*()[]{}|\\:;\"'\u003c\u003e?/.,","stringHostnameField":"sub.domain.example.org","stringIntegerField":"2147483647","stringIpv4Field":"10.0.0.1","stringIpv6Field":"2001:0db8:0000:0000:0000:ff00:0042:8329","stringIriField":"https://москва.рф/path","stringIriReferenceField":"/москва/путь","stringJsonPointerField":"/nested/array/0/field","stringMacAddr8Field":"01:23:45:67:89:ab:cd:ef","stringMacAddrField":"01:23:45:67:89:ab","stringNumberField":"0","stringRegexField":"[0-9]{3}-[0-9]{2}-[0-9]{4}","stringRelativeJsonPointerField":"2/nested/field","stringTimeField":"23:59:59.999-01:15","stringUint32Field":"2147483648","stringUint64Field":"9223372036854775808","stringUriField":"ftp://user:pass@host.com:21/path?query=value","stringUriReferenceField":"?query=value\u0026other=param","stringUriTemplateField":"https://{host}{/path*}{?query*}","stringUuidField":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+
+

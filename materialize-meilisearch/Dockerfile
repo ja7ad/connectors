@@ -1,0 +1,45 @@
+ARG BASE_IMAGE=ghcr.io/estuary/base-image:v2
+
+# Build Stage
+################################################################################
+FROM --platform=linux/amd64 golang:1.27-trixie AS builder
+
+WORKDIR /builder
+
+# Download & compile dependencies early. Doing this separately allows for layer
+# caching opportunities when no dependencies are updated.
+COPY go.* ./
+RUN go mod download
+
+COPY flow-bin/flowctl-go /usr/local/bin/flowctl-go
+
+COPY go                        ./go
+COPY materialize-boilerplate   ./materialize-boilerplate
+COPY materialize-meilisearch   ./materialize-meilisearch
+
+RUN go test -tags nozstd -v ./materialize-boilerplate/...
+RUN go test -tags nozstd -short -v ./materialize-meilisearch/...
+
+# Build the connector.
+RUN go build -tags nozstd -v -o ./connector ./materialize-meilisearch/cmd/connector
+
+# Runtime Stage
+################################################################################
+FROM ${BASE_IMAGE}
+
+WORKDIR /connector
+ENV PATH="/connector:$PATH"
+
+# Bring in the compiled connector artifact from the builder.
+COPY --from=builder /builder/connector /connector/materialize-meilisearch
+COPY --from=ghcr.io/estuary/network-tunnel:dev /flow-network-tunnel /usr/bin/flow-network-tunnel
+
+# Avoid running the connector as root.
+USER nonroot:nonroot
+
+ARG CONNECTOR_VERSION=dev
+ENV CONNECTOR_VERSION="${CONNECTOR_VERSION}"
+
+LABEL FLOW_RUNTIME_PROTOCOL=materialize
+
+ENTRYPOINT ["/connector/materialize-meilisearch"]
